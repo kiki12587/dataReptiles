@@ -1,0 +1,38 @@
+{{template "header" .}}
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
+    <legend>数据爬虫</legend>
+</fieldset>
+
+
+<form class="layui-form" action="" method="POST">
+    <div class="layui-form-item">
+        <label class="layui-form-label">爬取类型</label>
+        <div class="layui-input-block">
+            <input type="radio" name="type" value="1" title="手机号" checked="">
+            <input type="radio" name="type" value="2" title="邮箱">
+            <input type="radio" name="type" value="3" title="超链接">
+            <input type="radio" name="type" value="4" title="身份证号">
+            <input type="radio" name="type" value="5" title="图片">
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">网址</label>
+        <div class="layui-input-block">
+            <textarea id="vod_content" name="url" type="text/plain" style="width:99%;height:250px"></textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button type="submit" class="layui-btn" lay-submit="" lay-filter="demo1">爬取</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+
+</form>
+
+</form>
+
+{{template "footer" .}}
