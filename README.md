@@ -9,6 +9,10 @@
 
 `conf->app.conf->downloadImgOpen::"是否开启图片下载"`
 
+![1606897813088](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\1606897813088.png)
+
+![1606897905866](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\1606897905866.png)
+
   ### 本项目仅为学习参考!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
