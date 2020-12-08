@@ -7,7 +7,7 @@
 package controllers
 
 import (
-	"demo01/common"
+	"dataReptiles/common"
 	"fmt"
 	"github.com/astaxie/beego"
 	"io/ioutil"

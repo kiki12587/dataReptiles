@@ -1,12 +1,12 @@
 package routers
 
 import (
-	"demo01/controllers"
+	"dataReptiles/controllers"
 	"github.com/astaxie/beego"
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{},"get:Get;post:Post")
+	beego.Router("/", &controllers.MainController{}, "get:Get;post:Post")
 	//beego.Router("/mobile", &controllers.MobileController{})
 	//beego.Router("/member", &controllers.MemberController{})
 	//beego.Router("/member/add", &controllers.MemberController{},"get:AddMember")

@@ -1,13 +1,10 @@
 package main
 
 import (
-	_ "demo01/routers"
+	_ "dataReptiles/routers"
 	"github.com/astaxie/beego"
 )
 
-
 func main() {
-beego.Run()
-	}
-
-
+	beego.Run()
+}
